@@ -1,8 +1,10 @@
 from firebird.driver import connect
 
-print("Python simple Firebird DB  connector")
+print("Python simple Firebird DB connector")
 print(" Trying to connect...")
 con = connect('/tmp/test.db', user='SYSDBA', password='1234')
+
+print(" Connected \o/")
 
 cur = con.cursor()
 
