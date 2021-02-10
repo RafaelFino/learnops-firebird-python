@@ -1,0 +1,6 @@
+CREATE DATABASE '/tmp/temp.db';
+
+CREATE TABLE TABLE1 (
+    ID int,
+    NAME VARCHAR(256)
+);
